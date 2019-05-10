@@ -20,9 +20,10 @@
     from student
     where id = #{id,jdbcType=INTEGER}
   </select>
+  
   <select id="selectAll" resultMap="BaseResultMap">
     select 
-    <include refid="Base_Column_List" />
+      id, name, sex, sign_time, credent_no, phone, coach_id, memo
     from student
   </select>
   <select id="selectByName" parameterType="java.lang.String" resultMap="BaseResultMap">
