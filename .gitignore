@@ -2,8 +2,6 @@
 logs
 out
 *.iml
-!.project
-!.classpath
 .settings
 */target
 */.settings
