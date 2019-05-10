@@ -16,8 +16,8 @@ public interface StudentDAO {
     int updateByPrimaryKeySelective(Student record);
 
     int updateByPrimaryKey(Student record);
-    
+
     List<Student> selectAll();
-    
+
     List<Student> selectByName(String textName);
 }

@@ -11,6 +11,7 @@ out
 */*.ipr
 */*.iws
 */build
+build
 .DS_Store
 */logs
 */scripts/*.pyc
@@ -18,6 +19,7 @@ out
 src/main/webapp/WEB-INF/classes
 src/main/webapp/META-INF/
 web/WEB-INF/classes
+WebContent/WEB-INF/classes
 web/META-INF/
 WebContent/META-INF/
 src/test/resources/conf_path.properties
